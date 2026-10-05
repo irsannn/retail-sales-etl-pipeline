@@ -15,9 +15,9 @@ Data mentahnya berantakan. Format tanggal campur aduk (`1/1/2011`, `13/01/2011`)
 
 ## Alur
 
-**Extract** — Baca CSV pakai Pandas.
+**Extract** - Baca CSV pakai Pandas.
 
-**Transform** — Ini bagian paling ribet. Yang aku lakuin:
+**Transform** - Ini bagian paling ribet. Yang aku lakuin:
 - Drop duplikat
 - Ubah kolom `sales`, `profit`, `quantity`, `discount` dari string ke angka (ada yang pakai koma, jadi harus dibersihin dulu)
 - Parse tanggal pakai `dayfirst=True` — ini penting banget
