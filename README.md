@@ -50,8 +50,8 @@ python main.py
 ## struktur folder
 
 retail-sales-etl-pipeline/
-├── data/               # dataset & database
-├── scripts/            # kode ETL
-├── sql/                # schema
-├── screenshots/        # bukti hasil query
+├── data/               
+├── scripts/            
+├── sql/                
+├── screenshots/        
 └── README.md
